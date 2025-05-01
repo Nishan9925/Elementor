@@ -1,0 +1,14 @@
+/* styles.css or in your global CSS file */
+@media (max-width: 768px) {
+    .responsive-menu {
+        display: block;
+        mode: vertical;
+    }
+}
+
+@media (min-width: 768px) {
+    .responsive-menu {
+        display: flex;
+        mode: horizontal ;
+    }
+}
